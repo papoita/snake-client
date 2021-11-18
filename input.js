@@ -13,7 +13,7 @@ const setupInput = function (connectObj) {
 };
 const handleUserInput = function (key) {
 	if (key === "\u001B\u005B\u0041" || key === "w") {
-		connectObjGlobal.write("Move: up");
+		connectObjGlobal.write();
 	}
 	if (key === "\u001B\u005B\u0043" || key === "d") {
 		connectObjGlobal.write("Move: right");
