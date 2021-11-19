@@ -4,18 +4,18 @@ const PORT = 50541;
 const NAME = "Name: PAO";
 
 const keyPressed = {
-	w: "Move: up",
-	d: "Move: right",
-	s: "Move: down",
-	a: "Move: left",
-	z: "Say: Soo fast",
-	x: "Say: HUNGRY YUM!!!!",
-	c: "Say: Sharing is caring",
+  w: "Move: up",
+  d: "Move: right",
+  s: "Move: down",
+  a: "Move: left",
+  z: "Say: Soo fast",
+  x: "Say: HUNGRY YUM!!!!",
+  c: "Say: Sharing is caring",
 };
 
 module.exports = {
-	HOST,
-	PORT,
-	NAME,
-	keyPressed,
+  HOST,
+  PORT,
+  NAME,
+  keyPressed,
 };
