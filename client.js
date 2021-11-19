@@ -3,7 +3,6 @@
 const net = require("net");
 const { HOST, PORT, NAME } = require("./constants");
 
-// establishes a connection with the game server
 const connect = function() {
   const conn = net.createConnection({
     host: HOST,
@@ -18,8 +17,6 @@ const connect = function() {
     conn.write(NAME);
     console.log("after name");
   });
-  // interpret incoming data as text
-
   return conn;
 };
 
