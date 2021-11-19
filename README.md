@@ -1,6 +1,6 @@
 <!-- @format -->
 
-(@papoita)[https://github.com/papoita/lotide] | ver 1.0.0
+(@papoita)[https://github.com/papoita/snake-client] | ver 1.0.0
 
 # Snake Client Project
 
