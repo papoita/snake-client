@@ -20,29 +20,16 @@ const handleUserInput = function (key) {
 	if (key === "\u0003") {
 		process.exit();
 	}
+	if (key === "\u001B\u005B\u0043") {
+		connectObjGlobal.write("Move: right");
+	}
+	if (key === "\u001B\u005B\u0042") {
+		connectObjGlobal.write("Move: down");
+	}
+	if (key === "\u001B\u005B\u0044") {
+		connectObjGlobal.write("Move: left");
+	}
 };
-// if (key === "\u001B\u005B\u0043" || key === "d") {
-// 	connectObjGlobal.write("Move: right");
-// }
-// if (key === "\u001B\u005B\u0042" || key === "s") {
-// 	connectObjGlobal.write("Move: down");
-// }
-// if (key === "\u001B\u005B\u0044" || key === "a") {
-// 	connectObjGlobal.write("Move: left");
-// }
-// if (key === "z") {
-// 	connectObjGlobal.write("Say: Soo fast");
-// }
-// if (key === "x") {
-// 	connectObjGlobal.write("Say: HUNGRY YUM!!!!");
-// }
-// if (key === "c") {
-// 	connectObjGlobal.write("Say: Sharing is caring");
-// }
-// \u0003 maps to ctrl+c input s
-//
-
-// };
 
 //dependency through parameters
 // const setupInput = function (connectObj) {
