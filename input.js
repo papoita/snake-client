@@ -19,7 +19,7 @@ const handleUserInput = function(key) {
   if (key === "\u0003") {
     process.exit();
   }
-  if (key === "\u001B\u005B\u0041" || key === "w") {
+  if (key === "\u001B\u005B\u0041") {
     connectObjGlobal.write("Move: up");
   }
   if (key === "\u001B\u005B\u0043") {
